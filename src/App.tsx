@@ -1,7 +1,8 @@
 import { Component } from 'react';
+import { Button } from './lib';
 
 export default class App extends Component {
   render() {
-    return <div>App</div>;
+    return <Button label='teste' />;
   }
 }
